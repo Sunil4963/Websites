@@ -1,0 +1,218 @@
+@charset "utf-8";
+body {margin: 0px;padding: 0px; font-family:Arial, Helvetica, sans-serif; font-size:15px; color:#333;}
+
+h1, h2, h3, h4, h5, h6, p, span, a, form, label, checkbox, select, ol, ul, li, strong{margin:0px; padding:0px;}
+
+a{ text-decoration:none;}
+img{ border:none;}
+a,img{ border:none;}
+
+/****** main divs ******/
+#main{ width:100%; float:left;}
+#header{ width:100%; float:left;}
+#section{ width:100%; float:left;}
+#footer{ width:100%; float:left; background-color:#000;}
+.wrap{ width:1270px; margin:0 auto 0 auto;}
+/****** main divs ******/
+
+.mail{ width:43%; float:right; padding:18px 0 18px 0;}
+.phone{ width:70%; float:left; color:#000; font-family:Arial, Helvetica, sans-serif; font-size:15px; padding:0 0 0 0;}
+.phone ul{ list-style:none; margin:0px; padding:0px;}
+.phone ul li{ float:left; padding:0 10px 0 0; line-height:31px; }
+.phone img{ vertical-align:middle; margin:0 5px 0 0;}
+
+.phone-bot{ width:29%; float:right; padding:0 0 0 0;text-align:center;}
+.phone-bot ul{ list-style:none; margin:0px; padding:0px;}
+.phone-bot ul li{ float:left; }
+.phone-bot ul li a{ width:35px; height:30px; display:block; background:url(/images/face.png) left top no-repeat;}
+.phone-bot ul li a:hover{ background:url(/images/face-ho.png) left top no-repeat;}
+
+.phone-bot ul li a.twiter{ background:url(/images/twiter.png) left top no-repeat;}
+.phone-bot ul li a.twiter:hover{ background:url(/images/twiter-ho.png) left top no-repeat;}
+
+.phone-bot ul li a.google{ background:url(/images/google.png) left top no-repeat;}
+.phone-bot ul li a.google:hover{ background:url(/images/google-ho.png) left top no-repeat;}
+
+.phone-bot ul li a.in{ background:url(/images/in.png) left top no-repeat;}
+.phone-bot ul li a.in:hover{ background:url(/images/in-ho.png) left top no-repeat;}
+
+.logo{ width:100%; float:left; padding:0 0 0 0;}
+.zymr{ width:20%; float: left; padding:0 0 0 0;}
+.nav{ width:75%; float:right; padding:60px 0 0 0;}
+.nav ul{ list-style:none; margin:0px; padding:0px;}
+.nav ul li { float:left; line-height:40px;}
+.nav ul li a{ color:#000; padding:15px 12px 15px 12px; font-size:19px;
+      font-family:"Myriad Pro"; border-radius:25px;
+     font-weight:bold; text-transform:uppercase;border:transparent solid 2px;}
+.nav ul li a:hover{ color:#FFF; background-color:#ed6b1d; border:#333 solid 2px;}
+
+.laptop{ width:100%; float:left; padding:0 0 0 0;}
+.we{ width:45%; float:left; padding:245px 0 0 0;}
+.image{ width:55%; float:right; padding:150px 0 130px 0;}
+.we h1{ font-family:"Myriad Pro"; font-size:60px; font-weight:bold; color:#565656; text-transform:uppercase;}
+.we p{ font-size:30px; font-weight:normal; color:#565656; padding:0 0 50px 0;}
+.we a{ background-color:#0bc3df; font-size:22px; text-align:center; border-radius:50px; line-height:25px;
+     padding:10px 15px 10px 15px; display:block; font-weight:bold; color:#FFF; width:40%;} 
+.we a:hover{ color:#000; background-color:#ed6b1d; border: #333 solid 2px;}
+
+.clutch{ width:100%; float:left; background-color:#0175c8; padding:30px 0 55px 0;}
+.image2{ width:100%;float:left; padding:0 0 0 0; text-align:center;}
+.image2 ul{ list-style:none; margin:0px; padding:0px;}
+.image2 ul li{ display:inline;}
+.image2 ul li a{ display:inline-block; padding:0 32px 0 32px;}
+.image2 ul li a img{ transition:all 1s ease; opacity:0.5;}
+.image2 ul li a img:hover{ transform:scale(1.1,1.1); opacity:1;}
+
+
+.cloud{ width:100%; float:left; padding:211px 0 0 0;}
+.image3{ width:55%; float:left; padding:0 0 0 0;}
+.text{ width:35%; float:right; padding:0 5% 250px 0;}
+.text h1{ font-family:Arial, Helvetica, sans-serif; font-size:43px; font-weight:normal; color:#424141;}
+.text p{ font-size:17px; color:#7e7e7e; padding:43px 10px 45px 0; line-height:25px;}
+.text a{ background-color:#0bc3df; font-size:22px; text-align:center; border-radius:50px; line-height:25px;
+     padding:10px 15px 10px 15px; display:block; font-weight:bold; color:#FFF; width:40%;} 
+.text a:hover{ color:#000; background-color:#ed6b1d;border:#333 solid 2px;}
+
+.Our{ width:100%; float:left; padding:0 0 150px 0;}
+.Success{ width:35%; float:left; padding:0 0 0 5%;}
+.image4{ width:55%; float:right; padding:0 0 0 0;}
+.image4 img{ width:100%;}
+.Success h1{ font-family:Arial, Helvetica, sans-serif; font-size:43px; font-weight:normal; color:#424141;}
+.Success p{ font-size:17px; color:#7e7e7e; padding:43px 10px 35px 0; line-height:25px;}
+.Success a{ background-color:#0bc3df; font-size:22px; text-align:center; border-radius:50px; line-height:25px;
+     padding:10px 15px 10px 15px; display:block; font-weight:bold; color:#FFF; width:40%;} 
+.Success a:hover{ color:#000; background-color:#ed6b1d; border: #333 solid 2px;}
+
+
+.Domain{ width:100%; float:left;}
+.Applications h1{ font-family:Arial, Helvetica, sans-serif; font-size:63px; border-bottom:#b4b4b4 solid 1px; font-weight:normal; color:#424141; padding:0 0 35px 0;}
+
+
+.Applications{ width:100%; float:left; }
+.Social{ width:18%; float:left; text-align:center; padding:100px 1% 100px 1%;}
+.Social h2{ font-family:Arial, Helvetica, sans-serif; font-size:18px; font-weight:bold; color:#7e7e7e; padding:90px 0 24px 0;}
+.Social p{ font-size:17px; font-weight:normal; color:#7e7e7e; line-height:23px}
+
+
+
+.Practices{ width:100%; float:left; padding:120px 0 0 0;}
+.Practices h1{ font-family:Arial, Helvetica, sans-serif; font-size:63px; border-bottom:#b4b4b4 solid 1px; font-weight:normal; color:#424141; padding:0 0 35px 0;}
+
+
+.Guide{ width:100%; float:left; text-align:center; padding:0 0 0 0;}
+.Guide h1{ font-family:Arial, Helvetica, sans-serif; font-size:50px; font-weight:normal; color:#424141; padding:0 0 60px 0;}
+.Guide a{ background-color:#0bc3df; font-size:22px; text-align:center; margin:75px auto 0 auto; border-radius:50px;
+     line-height:45px; padding:10px 0 10px 0; display:block; font-weight:bold; color:#FFF; width:30%;} 
+.Guide a:hover{ color:#000; background-color:#ed6b1d; border: #333 solid 2px;}
+
+.Customers{ width:100%; float:left; padding:200px 0 0 0;}
+.Customers h1{ font-family:Arial, Helvetica, sans-serif; font-size:63px; border-bottom:#b4b4b4 solid 1px; font-weight:normal; color:#424141; padding:0 0 35px 0;}
+
+.Platform{ width:100%; float:left; padding:72px 0 100px 0; }
+.Mobile { width:20%; float:left; padding:0 0 0 0; text-align:center;}
+.Mobile h1{ font-family:Arial, Helvetica, sans-serif; padding:57px 0 0 0; text-align:center; font-weight:normal; font-size:19px; color:#424141;}
+.Mobile h3{ font-family:Arial, Helvetica, sans-serif; padding:41px 0 0 0; text-align:center; font-weight:normal; font-size:19px; color:#424141;}
+.Mobile h4{ font-family:Arial, Helvetica, sans-serif; padding:72px 0 0 0; text-align:center; font-weight:normal; font-size:19px; color:#424141;}
+.Mobile h5{ font-family:Arial, Helvetica, sans-serif; padding:10px 0 0 0; text-align:center; font-weight:normal; font-size:19px; color:#424141;}
+.Mobile h2{padding:0 0 0px 0;}
+
+.dot{ width:100%; float:left; text-align:center; padding:0 0 100px 0;}
+.dot ul{ list-style:none; margin:0px; padding:0px;}
+.dot ul li{ display:inline; margin:0 0 0 0;}
+.dot ul li a{ font-size:30px;color:#838383;}
+.dot ul li a:hover{ color:#ed6b1d;}
+
+
+.say{ width:78%; float:left; padding:0 11% 0 11%;}
+.all{ width:46%; float:left; padding:100px 0 0 0;}
+.all h1{ font-family:Arial, Helvetica, sans-serif; font-size:53px; font-weight:bold; color:#424141;}
+.all p{ font-size:17px; font-weight:normal; color:#7e7e7e; padding:25px 0 47px 0; line-height:30px;}
+.all a{ background-color:#0bc3df; font-size:22px; text-align:center; border-radius:50px; line-height:45px;
+     padding:10px 15px 10px 15px; display:block; font-weight:bold; color:#FFF; width:40%; margin:0 0 200px 0;} 
+.all a:hover{ color:#000; background-color:#ed6b1d; border: #333 solid 2px;}
+.john-main{ width:50%; float:right; }
+.john{ width:100%; float:left; }
+.can{ width:40%; float:left; }
+.ipsum{ width:60%; float:left;}
+.ipsum h1{ font-family:Arial, Helvetica, sans-serif; font-size:18px; font-weight:normal; color:#7e7e7e; line-height:30px;}
+.ipsum p{ font-size:17px; font-weight:bold; color:#7a1518; padding:23px 0 0 0;}
+
+.space{ width:100%; float:left; text-align:center; padding:30px 0 80px 0;}
+.space ul{ list-style:none; margin:0px; padding:0px;}
+.space ul li{ display:inline; margin:0 3px 0 3px;}
+.space ul li a{ font-size:30px;color:#c7c4c4;}
+.space ul li a:hover{ color:#ed6b1d;}
+
+
+.blue{ width:80%; float:left; background-color:#0bc3df; padding:87px 10% 85px 10%;}
+.true{ width:15%; float:left; background-color:#FFF; padding:35px 0 35px 0;}
+.true h1{ font-family:Arial, Helvetica, sans-serif; text-align:center; font-size:19px; color:#005bae; font-weight:normal;}
+
+.and{ width:15%; float:left; background-color:#FFF; padding:24px 0 24px 0;}
+.and h1{ font-family:Arial, Helvetica, sans-serif; text-align:center; font-size:19px; color:#111111; font-weight:normal;}
+
+.SIERRA{ width:15%; float:left; background-color:#FFF; padding:27px 0 27px 0;}
+.SIERRA h1{ font-family:Arial, Helvetica, sans-serif; text-align:center; font-size:22px; font-weight:normal; color:#111111;}
+.SIERRA p{ font-size:11px; font-weight:normal; text-align:center; color:#111111;}
+
+.artiman{ width:15%; float:left; background-color:#FFF; padding:30px 0 30px 0;}
+.artiman h1{ font-family:Arial, Helvetica, sans-serif; text-align:center; border-bottom:#cacaca solid 1px; font-size:19px; font-weight:normal; color:#111111;}
+.artiman p{ font-size:8px; font-weight:normal; text-align:center; color:#8e8d8d;}
+
+.intel{ width:15%; float:left; background-color:#FFF; padding:14px 0 14px 0;}
+.intel h1{ text-align:center;}
+
+.Khosla{ width:15%; float:left; background-color:#FFF; padding:35px 0 36px 0;}
+.Khosla h1{ font-family:Arial, Helvetica, sans-serif; text-align:center; font-size:18px; font-weight:normal; color:#665a44;}
+.gap{ margin:0 2% 0 0;}
+
+
+.Blog{ width:60%; float:left; padding:119px 20% 0 20%;}
+.welcome{ width:100%; float:left; text-align:center;}
+.welcome h1{ font-family:Arial, Helvetica, sans-serif; font-size:57px; font-weight:normal; color:#424141;}
+.welcome p{ font-size:18px; font-weight:normal; color:#565656; padding:25px 0 0 0; line-height:30px}
+
+.pen{ width:100%; float:left; padding:82px 0 0 0;}
+.worm{ width:32%; float:left; padding:0 0 0 0; box-shadow:#999 0 0 5px;}
+.worm h1{ padding:0 0 25px 0;}
+.worm h1 img{ width:100%;}
+.worm h2{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#7e7e7e; padding:0 0 20px 0;}
+.worm p{ font-size:17px; font-weight:normal; color:#7e7e7e; line-height:25px;}
+.gap2{ margin:0 2% 0 2%;}
+
+.news{ width:100%; float:left; padding:150px 0 0 0;}
+.news h1{ font-family:Arial, Helvetica, sans-serif; font-size:33px; font-weight:bold; color:#565656;}
+.news p{ font-size:27px; font-weight:normal; color:#565656; border-bottom:#c0d7e6 solid 1px; padding:13px 0 15px 0;}
+
+
+.lorem{ width:100%; float:left; padding:0 0 150px 0;}
+.img{ width:24%; float:left; padding:25px 0 0 0; margin:0 1% 0 0;}
+.img h1{ padding:0 0 35px 0;}
+.img h1 img{ width:100%;}
+
+
+
+.contact{ width:17%; float:left; padding:100px 3% 65px 0; font-family: "Myriad Pro"}
+.contact h1{  color:#FFF; font-size:21px; font-weight:normal; text-transform:uppercase; border-bottom:#FFF solid 1px;
+     padding:0 0 15px;}
+.contact ul{ list-style:none; margin:0px; padding:0px;}
+.contact ul li{ color:#FFF; font-size:15px;  line-height:24px; margin:14px 0 0 0;
+     background:url(/images/house.png) left 3px no-repeat; padding:0 0 0 25px;}
+
+.contact ul li:nth-child(2){ background:url(/images/mail-1.png) left 4px no-repeat;}
+.contact ul li:nth-child(3){ background:url(/images/phone.png) left 5px no-repeat;}
+
+.nav1{ width:14%; float:left; padding:100px 0 0 2%;}
+.nav1 h1{ color:#FFF; font-size:21px; font-weight:normal; text-transform:uppercase; border-bottom:#FFF solid 1px; padding:0 0 15px;}
+.nav1 ul{ list-style:none; margin:0px; padding:0px;}
+.nav1 ul li{ line-height:35px;}
+.nav1 ul li a{ font-size:15px; display:block; color:#FFF; }
+.nav1 ul li a:hover{ color:#ed6b1d;}
+
+
+.nav2{ width:100%; float:left; text-align:center; padding:37px 0 0 0;}
+.nav2 ul{ list-style:none; margin:0px; padding:0px;}
+.nav2 ul li { display:inline; line-height:30px;}
+.nav2 ul li a{ color:#FFF; padding:15px 12px 0 12px; font-size:16px; font-family:"Myriad Pro"; font-weight:normal; text-transform:uppercase;}
+.nav2 ul li a:hover{ color:#ed6b1d;}
+.nav2 h1{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#FFF; font-weight:normal; padding:43px 0 50px 0;}

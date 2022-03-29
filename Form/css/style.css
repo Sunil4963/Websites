@@ -1,0 +1,14 @@
+@charset "utf-8";
+body { margin: 0px; padding: 0px; padding:20px 0 20px 0;}
+.blue{ background-color:#cc6; border-radius:10px; padding:50px 0 50px 0;}
+.first{ padding:20px 0 0 0; font-family:"Myriad Pro"; font-size:15px; text-transform:uppercase;}
+.name{ padding:17px 0 17px 6%; border-radius:5px; font-size:14px; border:none; width:85%; background-color:#FFF;}
+.discription{ padding:15px 0 15px 3%; border-radius:5px; font-size:14px; border:none; width:97%; background-color:#FFF;}
+
+.submit{ padding:10px 0 50px 0;}
+.submit a{ font-family:"Myriad Pro"; width:20%; border-radius:25px; text-align:center; line-height:30px; font-size:14px;
+     color:#333; text-decoration:none; text-transform:uppercase; display:block; background-color:#FFF;}
+.submit a:hover{ color:#fff; background-color:#06F;}
+
+.to{ padding:5px 0 0 0; font-family:"Myriad Pro"; font-size:14px; text-transform:uppercase;}
+

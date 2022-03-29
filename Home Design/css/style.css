@@ -1,0 +1,129 @@
+@charset "utf-8";
+body {margin: 0px; padding: 0px; font-family:"Open Sans";font-size:15px; color:#333;}
+
+h1,h2,h3,h4,h5,h6,p,span,a,from,label,checkbox,select,ol,ul,li,strong{ margin:0px; padding:0px;}
+
+a{ text-decoration:none;}
+img{ border:none;}
+a,ima{ border:none;}
+
+/******** main divs ********/
+#main{ width:100%; float:left;}
+#header{ width:100%; float:left; background-color:#484443;}
+#navigation{ width:100%; float:left;background-color:black;}
+#section{ width:100%; float:left; background: url(/images/image.png) center top no-repeat;}
+#section1{ width:100%; float:left; background-color: #FFF;}
+#section2{ width:100%; float:left; background-color: #2f668d;}
+#section3{ width:100%; float:left; background-color: #f5f5f5;}
+#footer{ width:100%; float:left; background-color: #484443;}
+.wrap{ width:1170px; margin:0 auto 0 auto;}
+/******** main divs ********/
+
+.facebook{ width: 20%; float: left; padding: 55px 0 60px 0;}
+.lo{width: 60%; float: left; text-align: center; padding: 15px 0 10px 0;}
+.campus{ width: 20%; float: right; padding: 45px 0 45px 0;}
+.campus p { font-size: 14px; line-height: 25px;}
+.campus a{ line-height: 15px; display: block; color: #FFF; padding: 10px 15px 10px 15px; text-align: center;
+border:#fff solid 1px; border-radius: 25px; margin: 5px auto 0 auto;}
+.campus a:hover{ background-color: #ffe306;}
+
+.navigation{ width:100%; height:30px; float: left; padding:15px 0 10px 0;}
+.navigation ul{ list-style:none; margin:0px; padding:0px;}
+.navigation ul li { float: left; line-height:20px; text-align: center;}
+.navigation ul li a{ color:#fff; padding:0 18px 0 18px; font-family:"Myriad Pro"; text-transform:uppercase;}
+.navigation ul li a:hover{ color: #ffe306;}
+
+.view{ width: 100%; float: left; padding: 200px 0 200px 0; color: #484443; font-family: 'Times New Roman', Times, serif;
+text-align: center;}
+.view h1{ font-weight: bold; font-size: 70px; text-transform: uppercase; padding: 0 0 20px 0;}
+.view a{ width: 20%; line-height: 15px; display: block; color:#FFF; border-radius: 25px; border:black solid 1px;
+font-family: 'Times New Roman', Times, serif; padding: 15px 20px 15px 20px; text-align: center; margin: 0 auto 0 auto;}
+.view a:hover{ background-color: #ffe306;}
+
+
+.Schedule{width:100%; float: left; padding:70px 0 50px 0; color:#484443; font-family:"Times New Roman", Times, serif;
+     font-size:45px; text-align:center; font-weight:bold;}
+.firstmain{ width:86%; float:left; padding:0 7% 50px 7%;}
+.first{ width:45%; float:left;}
+.first-right{ width:45%; float:right;}
+.input{ font-size:17px; width:100%; font-family:Georgia, "Times New Roman", Times, serif; padding:32px 0 8px 0; color:#d0d0d0; outline:none;  border:none;border-bottom:#d0d0d0 solid 1px;}
+.first-bot{ width:100%; float:left;}
+
+.btn{ width:100%; float:left; padding:50px 0 50px 0;}
+.btn a{ width:20%; line-height:15px; display:block; color:#FFF; border-radius:25px; background-color:#2f668d; font-family:"Myriad Pro"; padding:15px 20px 15px 20px; text-align:center; margin:0 auto 0 auto;}
+.btn a:hover{ background-color:#ffe306;}
+
+
+.imagemain{ width:100%; float:left; padding:0 0 30% 0; background:url(/images/house-image.png) left top no-repeat;}
+.house-right{width:43%; float:right; border:#2f668d solid 2px; background-color:#FFF; padding:0 6% 45px 6%;
+      margin:170px 0 0 0;}
+.house-right h1{ padding:50px 0 0 0; font-family:"Times New Roman", Times, serif; font-size:42px; color:#484443; font-weight:bold;}
+.house-right p{ padding:15px 0 0 0; font-family:"Open Sans"; font-size:20px; color:#555555;}
+.house-right a{ width:45%; display:block; color:#FFF; border-radius:30px; font-size:20px; background-color:#2f668d; font-family:"Myriad Pro"; padding:0 0 0 0; text-align:center; margin:15px 0 0 0; line-height:55px; text-transform:uppercase;}
+.house-right a:hover{ background-color:#ffe306;}
+
+
+.mymain{ width:100%; float:left;}
+.my{ width:33%; float:left; text-align:center; padding:0 0 40px 0; }
+.my p{ font-size:16px; padding:15px 20% 25px 20%; line-height:20px;}
+.my a{ background-color:#093; line-height:45px; display:block; color:#FFF; width:40%; margin:35px auto 0 auto;} 
+.my a:hover{ color:#354f77; background-color:#0CF;}
+
+.Apartments{ width:100%; float:left; font-family:"Times New Roman", Times, serif; font-size:42px; color:#FFF; font-weight:bold; text-transform:capitalize; padding:80px 0 0 0; margin:0 0 50px 0;}
+.Apartments span{border-bottom:#FFF solid 2px;}
+.Lorem{ width:33%; float:left; margin:0 auto 0 auto; padding:0 0 25px 0;}
+
+.arrow{ width:100%; float:left;}
+.arrow-left{ width:50%; float:left;}
+.arrow-right{ width:47%; float:right; text-align:right; padding:0 3% 100px 0;}
+
+
+.cap{ width:100%; float:left; font-family:"Times New Roman", Times, serif; font-size:42px; color:#2f668d; font-weight:bold; text-transform:capitalize; padding:100px 0 0 0; margin:0 0 50px 0;}
+.cap span{border-bottom:#2f668d solid 2px;}
+.flag{ width:31%; float:left; padding:0 0 120px 0;}
+.flag-top{ width:100%; float:left; }
+.flag-top img{ width:100%;}
+.flag-bot{ width:84%; float:left;text-align:center; background-color:#FFF; padding:15px 8% 40px 8%;}
+.flag-bot h1{ font-size:24px; font-weight:normal; color:#263238;  text-transform:capitalize;}
+.flag-bot p{ font-size:15px;color:#647b85; padding:10px 0 20px 0; line-height:24px;}
+.flag-bot a{ background-color:#093; line-height:50px; display:block; color:#FFF; border-radius:25px; width:80%; margin:0px auto 0 auto;} 
+.flag-bot a:hover{ color:#354f77; background-color:#ffe306;}
+
+.city{ width:32%; float:left; padding:0 3% 35px 3%;}
+.city-top{ width:84%; float:left; background-color:#FFF; padding: 31px 8% 31px 8%; margin:0 0 45px 0;}
+.city-top h1{ font-size:24px; font-weight:normal; color:#263238;  text-transform:capitalize;}
+.city-top p{ font-size:15px;color:#647b85; padding:10px 0 15px 0; line-height:24px;}
+.city-top a{ border:#ffec57 solid 2px; line-height:45px; display:block; color:#2f668d; text-align:center; border-radius:25px; width:40%;} 
+.city-top a:hover{ color:#354f77; background-color:#0CF;}
+
+.lorem-img{ width:25%; float:left; background:url(/images/lorem.png) left top no-repeat; padding:48px 3% 48px 3%;}
+.lorem-img h1{ font-size:22px; font-weight:normal; color:#FFF;  text-transform:capitalize;}
+.lorem-img p{ font-size:15px;color:#FFF; padding:10px 0 20px 0; line-height:28px;}
+.lorem-img a{ border:#ffec57 solid 2px;background-color:#2f668d; line-height:45px; display:block; color:#FFF;
+       text-align:center; border-radius:25px; width:80%;} 
+.lorem-img a:hover{ border:#FFF solid 1px; background-color:#ffe306;}
+
+
+
+.logo{ width:34%; float:left; padding:25px 9% 0 0;}
+.logo-top{ width:100%; float:left; }
+.logo-top img{ width:33%;}
+.logo-bot{ width:100%; float:left;text-align:left; color:#FFF; padding:20px 0 10px 0;}
+.logo-bot h1{ font-size:18px; font-weight:normal; color:#FFF;  text-transform:capitalize;}
+.logo-bot p{ font-size:18px;color:#FFF; padding:20px 0 20px 0; line-height:24px;}
+
+
+.our{ width:24%; float:left; padding:40px 7% 0 0; font-family:Georgia, "Times New Roman", Times, serif;}
+.our h1{  color:#FFF; font-size:20px; text-transform:uppercase; padding:20px 0 15px 0;border-bottom:#5b5756 solid 2px;}
+.our ul{ list-style:none; margin:0px; padding:0px;}
+.our ul li{ color:#FFF; font-size:17px;  line-height:24px; margin:14px 0 0 0; background:url(/images/location.png) left 5px no-repeat; padding:0 0 0 25px;}
+
+.our ul li:nth-child(2){background:url(/images/phone.png) left 4px no-repeat;}
+.our ul li:nth-child(3){ background:url(/images/msg.png) left 5px no-repeat;}
+
+.quick{ width:20%; float:right; padding:40px 4% 0 0; font-family:Georgia, "Times New Roman", Times, serif;}
+.quick-left{ width:50%; float:left; padding:0 0 0 0; font-family:Georgia, "Times New Roman", Times, serif;}
+.quick h1{  color:#FFF; font-size:20px; text-transform:uppercase; padding:20px 0 15px 0;border-bottom:#5b5756 solid 2px;}
+.quick p{ list-style:none; margin:0px; padding:0px;}
+.quick h2{  color:#FFF; font-size:16px; line-height:40px; text-transform:uppercase; padding:20px 0 15px 0;}
+.quick-right{ width:40%; float:left; padding:0 0 0 10%; font-family:Georgia, "Times New Roman", Times, serif;}

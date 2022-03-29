@@ -1,0 +1,131 @@
+@charset "utf-8";
+body {margin: 0px;padding: 0px; font-family:Arial, Helvetica, sans-serif; font-size:15px; color:#333;}
+
+h1, h2, h3, h4, h5, h6, p, span, a, form, label, checkbox, select, ol, ul, li, strong{margin:0px; padding:0px;}
+
+a{ text-decoration:none;}
+img{ border:none;}
+a,img{ border:none;}
+
+/****** main divs ******/
+#main{ width:100%; float:left;}
+#header{ width:100%; float:left;}
+#section{ width:100%; float:left; background-image:url(/images/banner.png);}
+#section2{width: 100%; float:left; background-color: #FFF;}
+#footer{ width:100%; float:left;}
+.wrap{ width:1164px; margin:0 auto 0 auto;}
+/****** main divs ******/
+
+.ican{ width: 100%; float: left; padding: 0 0 0 0;}
+
+.logo{width:25%; float:left; font-size: 30px; font-weight: bold; color:#FFF; text-shadow: #000 0 1px 1px;
+     padding: 30px 0 15px 0;}
+
+.nav{width:75%; float:left; padding:85px 0 0 0;}
+.nav ul{ list-style: none; margin:0px; padding:0px;}
+.nav ul li{ float: left; padding: 0 0 0 0;}
+.nav ul li a{ color: #fff; text-shadow: #000 0 1px 1px; padding: 10px 20px 10px 20px; font-size: 23px;
+     font-family:"myriad pro"; border-radius: 25px; font-weight: normal; text-transform: capitalize;
+      border: transparent solid 2px;}
+.nav ul li a:hover{ color: #000; background-color: chocolate; border: black solid 3px;}
+
+
+.our{ width:100%; float:left; padding:0 0 0 0;}
+.option{ width:45%; float:left; text-align:center; font-family:"Tekton Pro"; padding:180px 0 0 5%;}
+.image{ width:50%; float:right; padding:60px 0 0 0;}
+.option h1{ font-size:39px; font-weight:bold; color:#000;}
+.option h2{ font-size:33px; font-weight:bold; color:#000; padding:32px 0 32px 0;}
+.option h3{ font-size:80px; font-weight:bold; color:#000;}
+.option a{ background-color: chartreuse; font-family:"Tekton Pro"; font-size:22px; text-align:center; border-radius:50px;
+     margin:18px auto; line-height:25px; padding:15px 15px 15px 15px; display:block; 
+     font-weight:bold; color:#FFF; text-shadow: #000 0 1px 1px; width:30%;} 
+.option a:hover{ color: #000; background-color:chocolate; border:black solid 3px;}
+
+
+
+
+.work{ width:90%; float:left; text-align:center; font-family:"Tekton Pro"; padding:0 5% 0 5%;}
+.work h1{ font-size:82px; font-weight:bold; color:#FFF; text-shadow: #000 0 1px 1px; padding:63px 0 22px 0;}
+.work p{ font-size:26px; font-weight:bold; color:#FFF; text-shadow: #000 0 1px 1px;}
+
+.choose{ width:100%; float:left; padding:0 0 0 0;}
+.img{ width:31.33%; float:left; text-align:center; padding:64px 0 0 0;}
+.img h1{ font-family:"Arial Black", Gadget, sans-serif; text-align:center; font-size:17px; font-weight:normal;
+     color:#FFF; text-shadow: #000 0 1px 1px; padding:40px 0 22px 0;}
+.img p{ font-family:"Tekton Pro"; font-size:25px; font-weight:normal; text-align:center;
+     color:#FFF; text-shadow: #000 0 1px 1px;}
+.gap{ margin:0 3% 0 3%;}
+
+.started{ width:100%; float:left; padding:40px 0 52px 0;}
+.started a{ background-color:#fdc02a; font-family:"Tekton Pro"; font-size:22px; text-align:center; border-radius:50px;
+     margin:0 auto; line-height:25px; padding:15px 15px 15px 15px; display:block;
+      font-weight:bold; color:#FFF; width:150px; } 
+.started a:hover{ color:#000; background-color:chocolate; border: #000 solid 3px;}.subscribe{ width:90%; float:left; text-align:center; font-family:"Tekton Pro"; padding:0 5% 0 5%;}
+.subscribe h1{ font-size:82px; font-weight:bold; color:#000; padding:66px 0 22px 0;}
+.subscribe p{ font-size:30px; font-weight:bold; color:#000;}
+
+.email{ width:80%; float:left; padding:50px 10% 0 10%;}
+.email-right{ width:60%; float:left; padding:0 0 0 0;}
+.adders{  padding:18px 3% 18px 6%; background-color:#a47034; border:none; font-family:"Tekton Pro"; font-size:25px;
+      width:86%; color:#FFF; font-weight:bold; outline:none; border-radius:40px; border:#fdcb44 solid 7px;}
+.email-right input{ color:#000;}
+.join{ width:33%; float:left; padding:20px0 0 0;}
+.join a{ background-color:#fdc02a; font-family:"Tekton Pro"; font-size:22px; text-align:center; border-radius:40px;
+      border:#000 solid 6px; line-height:25px; display:block; font-weight:bold; color:#FFF; width:60%;
+       line-height:65px;} 
+.join a:hover{ color:#000; background-color:chocolate; border: #000 solid 3px;}
+
+.feeds{ width:90%; float:left; text-align:center; font-family:"Tekton Pro"; padding:0 5% 0 5%;}
+.feeds h1{ font-size:82px; font-weight:bold; color:#000; padding:85px 0 22px 0;}
+.feeds p{ font-size:30px; font-weight:bold; color:#000;}
+
+.cartoon{ width:100%; float:left; text-align:center; padding:50px 0 0 0;}
+.cart{ width:33%; float:left; padding:0 0 0 0;}
+
+
+.dot{ width:100%; float:left; text-align:center; padding:50px 0 81px 0;}
+.dot ul{ list-style:none; margin:0px; padding:0px;}
+.dot ul li{ display:inline; margin:0 0 0 0;}
+.dot ul li a{ font-size:35px;color:#ac712d;}
+.dot ul li a:hover{ color:greenyellow;}
+
+
+.payment{ width:100%; float:left; padding:0 0 0 0;}
+.options{ width:30%; float:left; padding:0 0 40px 0;}
+.options h1{ font-family:"Tekton Pro"; font-weight:bold; font-size:30px; color:#FFF; text-shadow: #000 0 1px 1px;}
+.options ul{ padding:0; margin:0p; list-style:none;}
+.options ul li{ float:left; margin:10px 4% 0 0;}
+
+.free-main{ width:45%; float:left; font-family:"Tekton Pro";}
+.free{ width:100%; float:left; font-family:"Tekton Pro";}
+.free h1{ font-weight:bold; font-size:30px; color:#FFF; text-shadow: #000 0 1px 1px;}
+.free h2{ font-weight:bold; font-size:24px; color:#fff; text-shadow: #000 0 1px 1px; padding:46px 0 30px 0;}
+.free p{ font-weight:bold; font-size:24px; color:#fff; text-shadow: #000 0 1px 1px; padding:0 0 35px 0;}
+
+.nav1{ width:100%; float:left; padding:0 0 0 0;}
+.nav1 ul{ list-style:none; margin:0px; padding:0px;}
+.nav1 ul li { float:left;}
+.nav1 ul li a{ color:#FFF; text-shadow: #000 0 1px 1px; padding:0 18px 0 2px; font-size:22px; font-family:"Tekton Pro"; font-weight:bold;
+      text-transform:capitalize;}
+.nav1 ul li a:hover{ color:chocolate;}
+
+.stay-top{ width:20%; float:right; font-family:"Tekton Pro"; padding:0 0 0 0;}
+.stay-top h1{font-weight:bold; font-size:30px; color:#FFF; text-shadow: #000 0 1px 1px; padding:0 0 35px 0;}
+.stay-top ul{ list-style:none; margin:0px; padding:0px;}
+.stay-top ul li{ line-height:66px; margin:0 0 10px 0;}
+.stay-top ul li a{display:block; color:#FFF; text-shadow: #000 0 1px 1px; font-size:28px; font-weight:bold;  background:url(../images/facebook.png) left top no-repeat; padding:0 0 0 35%;}
+.stay-top ul li a:hover{ background:url(../images/facebook-ho.png) left top no-repeat; color:chocolate;}
+
+.stay-top ul li a.twitter{ background:url(../images/twiter.png) left top no-repeat;}
+.stay-top ul li a.twitter:hover{ background:url(../images/twiter-ho.png) left top no-repeat; color:chocolate;}
+
+.stay-top ul li a.pritrest{ background:url(../images/p.png) left top no-repeat;}
+.stay-top ul li a.pritrest:hover{ background:url(../images/p-ho.png) left top no-repeat; color:chocolate;}
+
+.stay-top ul li a.insta{ background:url(../images/instagram.png) left top no-repeat;}
+.stay-top ul li a.insta:hover{ background:url(../images/instagram-ho.png) left top no-repeat; color:chocolate;}
+
+.two{ width:100%; float:left; text-align:center; padding:13px 0 13px 0;}
+.two h1{ font-family:"Tekton Pro"; font-size:26px; font-weight:bold; color:#FFF; text-shadow: #000 0 1px 1px;}
+
+
